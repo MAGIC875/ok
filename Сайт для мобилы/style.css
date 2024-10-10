@@ -1,0 +1,78 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family:sans-serif;
+  font-weight:200;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    height: 440px;
+    width: 1900px;
+    border: none;
+}
+.container{
+    background: rgb(255, 239, 239);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: none;
+    display: flex;
+    gap: 60px;
+    height: 300px;
+    width: 1900px;
+    
+}
+.column{ 
+    display: flex;
+    align-items: center;
+    border-left: solid 3px;
+    border-image:linear-gradient(rgb(112, 21, 197), rgb(255, 184, 196)) 1; 
+    gap: 6px;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+    width: 360px;
+    height: 160px;
+}
+.column:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.column:not(:hover){
+    transition: 0.3s;
+}
+.text{
+    line-height: 0.9em;
+    align-items: center;
+    border: none;
+    flex-wrap:nowrap;
+    width: 1900px;
+    height: 100px;
+    text-align: center;
+}
+.textIn{
+    line-height: 1.4em;
+    border: none;
+    height: 160px;
+    width: 250px;
+}
+.element{
+    display: flex;
+    justify-content: center;
+    border: none;
+    height: 160px;
+    width: 90px;
+}
+.purple{
+    color: rgb(81, 11, 173);
+}
+.gray{
+    color: rgb(121, 121, 121);
+    font-size: small;
+}
+.pictureColor{
+    color:rgb(81, 11, 173);
+}
